@@ -17,4 +17,4 @@ Prediction part includes:
 * simple neural network in Keras;
 * discussion of generalizability/transferability: prediction using an invalid train-test split, where the train set would only include cities that belong to North America and South America.
 
-All the results are presented in the notebook file.
+All the results are presented in the .ipynb file.
