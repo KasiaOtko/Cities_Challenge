@@ -2,7 +2,7 @@
 
 This is a project for [Introduction to Business Analytics](https://kurser.dtu.dk/course/42577/info) course on Technical University of Denmark (winter 2020 edition), where we explored a dataset from the [Urban Typologies project](http://web.mit.edu/afs/athena.mit.edu/org/i/its-lab/www/dashboard/new%20dashboard/index.html), consisting of 331 cities and 64 factors describing them. The project contains exploratory and prediction component. In the latter, the goal was to predict CO2 Emissions per capita.
 
-Techniques used in the exploratory part:
+Exploratory part includes:
 * imputation of missing data using mean, median and `KNNImputer` model from scikit-learn package. We evaluated how each method affects a distribution of each variable as well as a correlation with the target variable;
 * investigation of relationship between modes of transportation and a quality of life;
 * visual analysis of factors correlating with longevity;
