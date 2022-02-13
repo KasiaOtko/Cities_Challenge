@@ -12,7 +12,7 @@ Prediction part includes:
 * linear regression with 17 variables that are most correlated with the target;
 * linear regression with manually selected features based on correlation with the target but also considering colinearity between the features;
 * linear regression with logarithmic transformation of the target variable;
-* use of L1 regularization and cross-validation for feature selection: remove features whose coefficients were schrinked completely to zero by L1 regularization;
+* use of L1 regularization and cross-validation for feature selection: remove features whose coefficients were shrinked completely to zero by L1 regularization;
 * `RandomForrestRegressor` and `RandomizedSearchCV` for hyperparameter tuning;
 * simple neural network in Keras;
 * discussion of generalizability/transferability: prediction using an invalid train-test split, where the train set would only include cities that belong to North America and South America.
